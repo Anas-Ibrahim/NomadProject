@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+body {
+  background-color: white;
+  font-family: 'Solway', serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div {
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  color: blue;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between; 
 }
 
-.App-link {
-  color: #61dafb;
+.Branding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between; 
+  font-weight:bold;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Branding_Social {
+    padding-top: 50px;
+}
+
+.placeholder {
+
+}
+
+.placeholder img {
+    width: 100%;
+}
+
+.Below_Text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: 'Gupter', serif;
+}
+
+.Slideshow {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.Explore {
+    display: flex;
+    justify-content: space-between; 
+}
+.Explore_Button {
+    padding-left: 400px;
+}
+.Explore_Text {
+    font-family: 'Gupter', serif;
+
 }
