@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
  const App = () => {
@@ -7,13 +6,13 @@ import './App.css';
     <div className="container">
         <div className="header">
             <div className="">
-                <img src="./Images/Logo.png" style={{width: '50%'}}/>
+                <img alt="smapleImage" src="./Images/Logo.png" style={{width: '50%'}}/>
             </div>
             <div className="" style={{textAlign: 'center'}}>
-                <img src="Images/Search Icon.png" style={{width: '50%'}} />
+                <img alt="smapleImage" src="Images/Search Icon.png" style={{width: '50%'}} />
             </div>
             <div className="" style={{textAlign: 'right'}}>
-                <img src="Images/Menu Icon.png" style={{width: '50%'}} />
+                <img alt="smapleImage" src="Images/Menu Icon.png" style={{width: '50%'}} />
             </div>
         </div>
 
@@ -25,14 +24,14 @@ import './App.css';
 
             <div className="Branding_Social">
                 <div>
-                    <img src="Images/240_F_285446979_Z8F7AKf7SImSo83AfpjauCYWka9cFfhf.jpg"
+                    <img alt="smapleImage" src="Images/240_F_285446979_Z8F7AKf7SImSo83AfpjauCYWka9cFfhf.jpg"
                         style={{width: 'auto', height: 'auto', maxWidth: '120px' , maxHeight: '93px'}} />
                 </div>
             </div>
         </div>
 
         <div className="placeholder">
-            <img src="Images/Placeholder.png" />
+            <img alt="smapleImage" src="Images/Placeholder.png" />
         </div>
 
         <div className="Below_Text">
@@ -45,13 +44,13 @@ import './App.css';
 
         <div className="Slideshow">
             <div>
-                <img src="Images/Placeholder2.png" style={{width: 'auto', height: 'auto', maxWidth: '350px'}} />
+                <img alt="smapleImage" src="Images/Placeholder2.png" style={{width: 'auto', height: 'auto', maxWidth: '350px'}} />
             </div>
             <div>
-                <img src="Images/Placeholder3.png" style={{width: 'auto', height: 'auto', maxWidth: '350px'}} />
+                <img alt="smapleImage" src="Images/Placeholder3.png" style={{width: 'auto', height: 'auto', maxWidth: '350px'}} />
             </div>
             <div>
-                <img src="Images/Placeholder4.png" style={{width: 'auto', height: 'auto', maxWidth: '350px'}} />
+                <img alt="smapleImage" src="Images/Placeholder4.png" style={{width: 'auto', height: 'auto', maxWidth: '350px'}} />
             </div>
         </div>
         <div className= "Explore">
@@ -59,7 +58,7 @@ import './App.css';
                 on the web server). Think of it a little like this: Think of it a little like this: the back end developer is like the engineer who
                 designs and creates the systems that make a city work.</div>
             <div className="Explore_Button">
-                <img src="Images/explore_button1.png" style={{width: 'auto', height: 'auto', maxWidth: '100px'}} />
+                <img alt="smapleImage" src="Images/explore_button1.png" style={{width: 'auto', height: 'auto', maxWidth: '100px'}} />
             </div>
         </div>
 
